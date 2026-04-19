@@ -86,7 +86,6 @@ providers.push(
 );
 
 export const authOptions: NextAuthOptions = {
-  trustHost: true,
   session: {
     strategy: "jwt",
   },
